@@ -1,0 +1,7 @@
+<view class="input-pannel">
+  <view class="input-label">{{label}}</view>
+  <input class="def-input" bindinput="bindInput" />
+  <view>
+    <image wx:if="{{tag!=''}}" class="input-tag" src="{{tag}}"></image>
+  </view>
+</view>

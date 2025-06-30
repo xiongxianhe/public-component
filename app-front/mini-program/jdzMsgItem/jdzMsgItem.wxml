@@ -1,0 +1,26 @@
+<view class="msg-item-group flex-column">
+  <view class="top flex-row" bind:tap="bindNavToDesc">
+    <view class="top-left">
+      <image class="img-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+    </view>
+    <view class="top-right">
+      <view class="main-title">北京体制内相亲圈群名称限制一行</view>
+      <view class="sub-title">面向base北京体制内用户申请加入</view>
+    </view>
+  </view>
+  <view class="bottom flex-row flex-between">
+    <view class="bottom-left">
+      <text class="cjjb">参与嘉宾：</text>
+      <image class="gender-img" src="/resource/images/app/main/male.png"></image>
+      <text class="man-num">156人</text>
+      <image class="gender-img" src="/resource/images/app/main/female.png"></image>
+      <text class="man-num">156人</text>
+    </view>
+    <view class="bottom-right">
+      <button class="join-btn">
+        <image class="j-img" src="/resource/images/app/main/join.png"></image>
+        <text>加入</text>
+      </button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,14 @@
+/* component/jdzBanner/jdzBanner.wxss */
+
+.swiper {
+  width: 752rpx;
+  height: 238rpx;
+}
+.swiper-item {
+  width: 752rpx;
+  height: 238rpx;
+}
+.item-img {
+  width: 100%;
+  height: 100%;
+}

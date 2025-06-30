@@ -1,0 +1,10 @@
+<view class="background-group">
+  <image class="back-img" mode="aspectFill" src="{{backImage}}"></image>
+</view>
+
+<view class="wx-navigationbar">
+  <view class="wx-state" style="height:{{status}}px"></view>
+  <view class="wx-pop" style="height:{{navHeight}}px">
+    <view class="header-title" style="line-height: {{navHeight}}px;">{{headerTitle}}</view>
+  </view>
+</view>

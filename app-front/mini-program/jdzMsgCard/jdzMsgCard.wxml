@@ -1,0 +1,29 @@
+
+<view class="card-item flex-row flex-between">
+  <view class="card-left flex-row">
+    <view class="card-img">
+      <image class="card-img-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+    </view>
+    <view class="user-info">
+      <view class="user-name-info">
+        <text class="user-name">Grape fruit</text>
+        <image class="vip-tag" src="/resource/images/app/main/vip2.png"></image>
+      </view>
+      <view class="user-o-info">
+        <text>25岁</text>
+        <text>|</text>
+        <text>170cm</text>
+        <text>|</text>
+        <text>体制内</text>
+        <text>|</text>
+        <text>教师</text>
+      </view>
+    </view>
+  </view>
+  <view class="card-right">
+    <button class="chat-btn">
+      <image class="chat-btm-tag" src="/resource/images/app/main/chat.png"></image>
+      <text>聊天</text>
+    </button>
+  </view>
+</view>

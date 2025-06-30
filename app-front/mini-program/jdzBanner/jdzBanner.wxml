@@ -1,0 +1,9 @@
+<swiper autoplay="true" interval="2000" duration="500" class="swiper">
+  <block wx:for="{{background}}" wx:key="*this">
+    <swiper-item>
+      <view class="swiper-item">
+        <image class="item-img" src="{{item}}"></image>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>

@@ -1,0 +1,52 @@
+<view class="activity-card">
+  <view class="top flex-row flex-start" bind:tap="bindNav">
+    <view class="t-left">
+      <image class="hd-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+    </view>
+    <view class="t-right flex-column">
+      <view class="main-title">90后线上心动互选｜百人限定社交场，等你出场</view>
+      <view class="sub-title flex-row flex-between">
+        <view class="s-left">
+          <text class="s-txt">#百人活动</text>
+          <text class="s-txt">#90后</text>
+        </view>
+        <view class="s-right">199元/人</view>
+      </view>
+      <view class="flex-row flex-between">
+        <view class="join-s flex-row flex-start">
+          <view class="hs">
+            <image class="header-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+            <image class="header-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+          </view>
+          <view class="join-process">
+            <view class="success-process" style="width: 90%;"></view>
+          </view>
+        </view>
+        <view class="join-rs">125/200人参与</view>
+      </view>
+      <view>
+        <text class="cjjb">参与嘉宾：</text>
+        <image class="gender-img" src="/resource/images/app/main/male.png"></image>
+        <text class="man-num">156人</text>
+        <image class="gender-img" src="/resource/images/app/main/female.png"></image>
+        <text class="man-num">156人</text>
+      </view>
+
+    </view>
+  </view>
+  <view class="bottom flex-row flex-between">
+    <view class="b-left">
+      <view class="b-left-t">
+        <image class="t-tag" src="/resource/images/app/main/time.png"></image>
+        <text class="t-desc">2025年5月31日</text>
+      </view>
+      <view class="b-left-t" style="margin-top: 12rpx;">
+        <image class="t-tag" src="/resource/images/app/main/rs.png"></image>
+        <text class="t-desc">线上腾讯会议</text>
+      </view>
+    </view>
+    <view class="b-right">
+      <button class="bm-btn">立即报名</button>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,106 @@
+@import "/component/style/common.wxss";
+
+.activity-card {
+  width: 694rpx;
+  height: 422rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  margin: 0 auto;
+  padding: 26rpx 24rpx;
+}
+
+.t-left {
+  width: 180rpx;
+  height: 230rpx;
+  background: #000000 rgba(0,0,0,0.2);
+}
+.hd-img {
+  width: 180rpx;
+  height: 230rpx;
+  border-radius: 12rpx 12rpx 12rpx 12rpx;
+}
+.main-title {
+  font-weight: bolder;
+  font-size: 28rpx;
+  color: #000000;
+}
+.s-txt {
+  font-size: 24rpx;
+  color: #99A0AF;
+  margin-right: 4rpx;
+}
+.s-right {
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #FF6C22;
+}
+.t-tag {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+  margin-right: 16rpx;
+}
+.t-desc {
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #000000;
+}
+.bm-btn {
+  width: 160rpx!important;
+  height: 58rpx!important;
+  line-height: 58rpx;
+  background: #0865FF;
+  border-radius: 198rpx 198rpx 198rpx 198rpx;
+  font-weight: normal;
+  font-size: 24rpx;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+}
+.header-img {
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 40rpx;
+}
+.join-process {
+  width: 200rpx;
+  height: 6rpx;
+  background: #F4F4F6;
+  border-radius: 198rpx 198rpx 198rpx 198rpx;
+  background: #F4F4F6;
+}
+.success-process {
+  width: 98rpx;
+  height: 6rpx;
+  background: #FF6C22;
+  border-radius: 198rpx 198rpx 198rpx 198rpx;
+}
+.join-rs {
+  font-size: 22rpx;
+  color: #99A0AF;
+}
+.cjjb {
+  font-size: 24rpx;
+  color: #5E636F;
+}
+.man-num {
+  font-size: 22rpx;
+  color: #99A0AF;
+}
+.gender-img {
+  width: 20rpx;
+  height: 20rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+  margin-right: 4rpx;
+}
+.top {
+  border-bottom: 2rpx solid #F4F4F6;
+  padding-bottom: 30rpx;
+}
+.t-right {
+  margin-left: 20rpx;
+}
+.bottom {
+  padding-top: 20rpx;
+}

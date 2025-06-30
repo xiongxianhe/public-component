@@ -1,0 +1,81 @@
+<view class="info-item">
+  <view class="photo-group">
+    <view class="photo-big">
+      <image class="photo-big-img" mode="aspectFill" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+    </view>
+    <view class="photos-little">
+      <view class="photo-little-item img-1">
+        <image class="photo-little-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+      </view>
+      <view class="photo-little-item img-2">
+        <image class="photo-little-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+      </view>
+      <view class="photo-little-item img-3">
+        <image class="photo-little-img" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+      </view>
+      <view class="photo-little-item img-4">
+        <image class="photo-little-img img-blur" src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240"></image>
+        <text class="img-num">+6</text>
+      </view>
+    </view>
+  </view>
+  <view class="user-info-group">
+    <view class="user-name-row flex-row flex-between">
+      <view class="user-name-p flex-row">
+        <view class="user-name">李亚路</view>
+        <image class="gender-tag" src="/resource/images/app/main/female.png"></image>
+        <image class="is-vip-tag" src="/resource/images/app/main/vip2.png"></image>
+      </view>
+      <button class="def-btn chat-btn">
+        <image class="vip-tag-btn" src="/resource/images/app/main/vip.png"></image>
+        <text class="chat-desc">发起聊天</text>
+      </button>
+    </view>
+    <view class="form-infos">
+      <view class="info-row">
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/weizhi.png"></image>
+          <text class="label-value">现居北京</text>
+        </view>
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/huji.png"></image>
+          <text class="label-value">户籍北京</text>
+        </view>
+      </view>
+      <view class="info-row">
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/shengri.png"></image>
+          <text class="label-value">24岁·2001年9月</text>
+        </view>
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/shenggao.png"></image>
+          <text class="label-value">172cm</text>
+        </view>
+      </view>
+      <view class="info-row">
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/hunyin.png"></image>
+          <text class="label-value">未婚</text>
+        </view>
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/xuexiao.png"></image>
+          <text class="label-value">东南大学·本科</text>
+        </view>
+      </view>
+      <view class="info-row">
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/gongzuo.png"></image>
+          <text class="label-value">政府单位</text>
+        </view>
+        <view class="info-row-item">
+          <image class="label-tag" src="/resource/images/app/main/gongzuo2.png"></image>
+          <text class="label-value">财务</text>
+        </view>
+      </view>
+    </view>
+    <view class="gobal-item">
+      <view class="g-title">恋爱目标</view>
+      <view class="g-des">计划1年之内结婚</view>
+    </view>
+  </view>
+</view>

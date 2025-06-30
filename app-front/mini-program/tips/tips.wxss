@@ -1,0 +1,21 @@
+.tips {
+  margin-top: 106rpx;
+}
+.tips-tag {
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-right: 12rpx;
+}
+.tips-head {
+  font-weight: bold;
+  font-size: 24rpx;
+  color: #FF6C22;
+}
+.tips-body {
+  margin-top: 10rpx;
+  font-weight: 400;
+  font-size: 24rpx;
+  color: #99A0AF;
+  line-height: 1.8;
+}

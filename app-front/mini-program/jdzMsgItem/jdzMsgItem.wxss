@@ -1,0 +1,73 @@
+@import "/component/style/common.wxss";
+
+.msg-item-group {
+  width: 694rpx;
+  height: 288rpx;
+  background: #FFFFFF;
+  border-radius: 20rpx 20rpx 20rpx 20rpx;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.top, .bottom {
+  width: 646rpx;
+}
+
+.top-left {
+  width: 180rpx;
+  height: 180rpx;
+  background: #000000 rgba(0, 0, 0, 0.2);
+  margin-right: 20rpx;
+}
+
+.img-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12rpx 12rpx 12rpx 12rpx;
+}
+
+.main-title {
+  font-weight: bold;
+  font-size: 28rpx;
+  color: #000000;
+}
+.sub-title {
+  font-size: 24rpx;
+  color: #99A0AF;
+}
+.top {
+  align-items: flex-start;
+}
+.gender-img {
+  width: 20rpx;
+  height: 20rpx;
+  vertical-align: middle;
+  margin-left: 10rpx;
+  margin-right: 4rpx;
+}
+.j-img {
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-right: 12rpx;
+}
+.cjjb {
+  font-size: 24rpx;
+  color: #5E636F;
+}
+.man-num {
+  font-size: 22rpx;
+  color: #99A0AF;
+}
+.join-btn {
+  width: 150rpx!important;
+  height: 58rpx!important;
+  line-height: 58rpx!important;
+  background: #0865FF;
+  border-radius: 198rpx 198rpx 198rpx 198rpx;
+  padding: 0;
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 24rpx;
+}

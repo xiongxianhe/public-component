@@ -1,0 +1,9 @@
+<view class="tips">
+  <view class="tips-head">
+    <image class="tips-tag" src="/resource/images/app/main/tips.png"></image>
+    <text>{{title}}</text>
+  </view>
+  <view class="tips-body">
+    <slot></slot>
+  </view>
+</view>

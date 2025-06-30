@@ -1,0 +1,10 @@
+<view class="pic-item" style="margin-right: 50rpx;">
+  <view class="pic-g" bind:tap="bindUploadImg">
+    <block wx:if="{{url != ''}}">
+      <image class="pic-img" mode="aspectFill" src="{{url}}"></image>
+      <image class="pic-del" src="/resource/images/app/main/delete.png" catch:tap="bindDelImg"></image>
+    </block>
+    <image wx:else class="pic-add" src="/resource/images/app/main/add.png"></image>
+  </view>
+  <view class="pic-des">上传照片</view>
+</view>

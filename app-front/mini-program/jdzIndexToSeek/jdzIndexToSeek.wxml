@@ -1,0 +1,25 @@
+<view class="c-container">
+  <view class="txt-tips" style="padding: 0 40rpx;">每天晚上8点，为您准时更新10位嘉宾 请记得到时候再来哦~</view>
+  <view class="header-img-g">
+
+    <view class="container">
+      <!-- 中心头像 -->
+      <view class="center-avatar">
+        <image src="https://gd-hbimg.huaban.com/23ddf90ec2b2d367f865c844134b0ba04b0a226711128-OQKirF_fw240" class="avatar-img" />
+      </view>
+
+      <!-- 其他头像 -->
+      <view class="avatar-container" style="height: {{containerHeight}}rpx; position: relative;">
+        <block wx:for="{{avatars}}" wx:key="index">
+          <image src="{{item.url}}" style="position: absolute; left: {{item.x}}rpx; top: {{item.y}}rpx; width: {{item.size}}rpx; height: {{item.size}}rpx; border-radius: 50%;" />
+        </block>
+      </view>
+    </view>
+
+
+  </view>
+  <view class="btn-g">
+   <button class="def-btn">前往相亲圈子瞧瞧~</button>
+  </view>
+
+</view>

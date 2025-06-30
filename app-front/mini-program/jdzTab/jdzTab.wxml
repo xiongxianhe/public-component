@@ -1,0 +1,6 @@
+<view class="tab-group flex-row flex-around">
+  <view wx:for="{{menus}}" wx:key="uniq" class="tab-item" bind:tap="bindSelectedItem" data-idx="{{item.tabIndex}}">
+    <text class="tab-txt {{selectedItem==item.tabIndex?'tab-select':''}}">{{item.tabName}}</text>
+    <text wx:if="{{item.tabTipsNum>0}}" class="read-num">{{item.tabTipsNum}}</text>
+  </view>
+</view>
